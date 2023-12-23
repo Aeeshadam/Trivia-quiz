@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   background: rgb(224, 231, 248);
+   overflow: hidden;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    max-width: 60rem;
+    padding: 20px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.top-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.score{
+   margin: 10px;
+   font-size: 40px;
+   color: rgb(23, 23, 170);
+}
+
+.quiz-container{
+   width: 100%;
+}
+
+.progressBar{
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(23, 23, 170);
+    margin-top: 10px;
+}
+
+.progressFiller{
+    height: 100%;
+    background-color: rgb(23, 23, 170);
+    width: 0%;
+}
+
+.options-container{
+    display: flex;
+    margin: 10px;
+    
+}
+ul{
+    padding: 0;
+}
+
+.question{
+    font-size: 32px;
+    color: rgb(21, 23, 35);
+    text-align: left;
+}
+
+.option{
+    display: flex;
+    margin-bottom: 8px;
+    background-color: aliceblue;
+    border: solid 1px rgb(214, 214, 254);
+
+}
+
+.option:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(162, 162, 235, 0.3);
+    transform: translateY(-0.1rem);
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+.label{
+    padding: 8px;
+    background-color: rgb(23, 23, 170);
+    color: white;
+    width: 32px;
+}
+
+p{
+    margin: 0;
+}
+
+.option-text{
+    padding: 8px;
+}
+
+
+ul li label{
+    cursor: pointer;
+}
+.options-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   cursor: pointer;
+}
+
+button{
+    padding: 15px;
+    width: 100%;
+    max-width: 200px;
+    border: 0;
+    background-color: rgb(12, 12, 140);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.next:hover{
+    background: rgb(5, 41, 245);
+    
+}
+
+.button-container{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   
+}
+
+.back{
+    background-color: aliceblue;
+    color: black;
+}
+
+.back:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
