@@ -103,37 +103,3 @@ startQuiz()
 
 
 
-/*setTimeout(() => {
-    alert("you selected the right anser")
-    answer = null
-}, 1000);
-
-
-
-
-       
-   /* currentQuestion ++;
-      if (!answer) {
-        alert('Please select your answer!');
-        return;
-      }
-      if (currentQuestion < questionData.length) {
-        startQuiz();
-    } else {
-       quiz.innerHTML = `<h2> Your score is ${score}/${questionData.length}.
-       <button onclick="location.reload()">Restart</button>`;
-    }
-   
-   });
-
-   backEl.addEventListener("click", ()=>{
-    currentQuestion--;
-    startQuiz(currentQuestion);*/
-
-   
-
-   
-
-//To do: Add back button
-
-   
